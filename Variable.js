@@ -4,6 +4,9 @@
 //* => JavaScript reserved words cannot be used as a variable name
 //* => Dev & dev are different variable (case-sensitive)
 
+//? There are three types of variable in JS
+//* var (Global scope variable) |  let (Blocked scope variable)  |  const (Blocked scope variable but value of this type of variable cannot change)
+
 //? Like you can create variable in JS
 let numDemo = 10;
 console.log(numDemo);
