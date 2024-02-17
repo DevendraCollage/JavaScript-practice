@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice-Set 8</title>
+  </head>
+  <body>
+    <!-- todo: Question:1 Write a program to show different alerts when different buttons are clicked. -->
+    <!-- ! This button is will get your name and greetings you -->
+    <button
+      onclick="let name = prompt('Enter Your name here'); alert('Hello ' + name);"
+    >
+      Click me to enter your name and see the greeting!
+    </button>
+
+    <!-- todo: Question:2 Create a website which is capable of storing bookmarks of your favorite websites using href. -->
+    <h1>My favorite bookmarks</h1>
+    <a href="https://google.com" target="_blank"><button>Google</button></a>
+    <a href="https://facebook.com" target="_blank"><button>Facebook</button></a>
+    <a href="https://github.com" target="_blank"><button>Github</button></a>
+    <a href="https://stackoverflow.com" target="_blank"
+      ><button>Stackoverflow</button></a
+    >
+    <a href="https://dev.to" target="_blank"
+      ><button>Programming blog</button></a
+    >
+
+    <!-- todo: Question:3 Repeat Q.2 using event listeners -->
+    <h1>My favorite bookmarks</h1>
+    <button id="google">Google</button>
+    <button id="fb">Facebook</button>
+    <button id="github">Github</button>
+    <button id="sto">Stackoverflow</button>
+    <button id="dev">Programming blog</button>
+
+    <script src="./PS-8.js"></script>
+  </body>
+</html>
